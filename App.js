@@ -18,7 +18,7 @@ const App = () => {
     <View className='flex-1 justify-center items-center dark:bg-neutral-900'>
       <StatusBar barStyle={colorScheme=='dark'?'light':'dark'}/>
       <View className='flex-row justify-center items-center space-x-2'>
-        <Text className='text-xl dark:text-white'>Toggle Button</Text>
+        <Text className='text-xl dark:text-white'>Dark theme</Text>
         
         <Switch value={colorScheme=='dark'} onChange={toggleColorScheme}/>
       </View>
